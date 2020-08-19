@@ -2801,15 +2801,13 @@ fieldset:disabled a.btn {
 }
 
 .btn-dark {
-  color: #fff;
-  background-color: #343a40;
-  border-color: #343a40;
+  color: white;
+  background-color: black;
 }
 
 .btn-dark:hover {
-  color: #fff;
-  background-color: #23272b;
-  border-color: #1d2124;
+  color: white;
+  background-color: black;
 }
 
 .btn-dark:focus, .btn-dark.focus {

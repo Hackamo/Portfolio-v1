@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -8,97 +8,75 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.css">
   <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/style.css">
+  <link rel="stylesheet" href="hover.css">
   <title>Corentin Rodrigo Portfolio</title>
-  <script src="particles.js"></script>
 </head>
 
 
 <body>
+
 <div class="home">
   <div class="container">
-    <div class="row home">
-      <h1 class="display-1">Hi, I'm Corentin Rodrigo</h1>
-      <h2 class="display-4">Web Developer and Machine Learning Engineer</h2>
-      <a href="#ancre-works" type="button" class="btn btn-outline-light">My Work</a>
-    </div>
+    <h1 class="display-1 ">Hi, I'm Corentin Rodrigo</h1>
+    <h2 class="display-4 ">Web Developer and Machine Learning Engineer</h2>
+    <a href="#ancre-works" type="button" class="btn btn-outline-light">Scroll to see my works</a>
+    <!--      <h1 class="display-1" style="font-size: 5vw">h1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis dicta, distinctio dolore enim, eos harum inventore laboriosam libero maxime nam odit officia perspiciatis quia quod reprehenderit sapiente unde vel!</h1>-->
+    <!--      <h2 class="display-4" style="font-size: 2vw" >h2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam consequatur consequuntur, debitis distinctio error explicabo facere, harum hic maiores natus non nostrum obcaecati odit perspiciatis soluta, suscipit veritatis vero.</h2>-->
   </div>
-
 </div>
+
 
 <div class="container-fluid" id="ancre-works">
   <div class="container">
-    <h1 class="display-4 title-section">My Work</h1>
+    <h1 class="display-4 title-section hvr-underline-from-center">My Works</h1>
     <div class="row myWork">
-
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="resources/LONGBOARD_1.jpg" class="img-thumbnail"
-                                                              alt="thumbnail1">
-        <div class="overlay">
-          <a href="#ancre-games" type="button" class="btn btn-outline-light">More</a>
-        </div>
-      </div>
       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <img src="resources/brainshield-video-low.gif" class="img-thumbnail" alt="thumbnail1">
-        <div class="overlay">
-          <a href="#ancre-brainshield" type="button" class="btn btn-outline-light">More</a>
-        </div>
+        <a href="#ancre-brainshield">
+          <img src="resources/BrainShield_Steps.PNG" class="img-thumbnail hvr-grow-myworks" alt="thumbnail1"></a>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="resources/screenshot_map_icam.png"
-                                                              class="img-thumbnail"
-                                                              alt="thumbnail1">
-        <div class="overlay">
-          <a href="#ancre-games" type="button" class="btn btn-outline-light">More</a>
-        </div>
-      </div>
-      <!--
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4"><img src="resources/thumbnail_4.jpg" class="img-thumbnail"
-                                                                   alt="thumbnail1">
-              <div class="overlay">
-                <div class="text">Corentin Rodrigo</div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4"><img src="resources/thumbnail_5.jpg" class="img-thumbnail"
-                                                                   alt="thumbnail1">
-              <div class="overlay">
-                <div class="text">Corentin Rodrigo</div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4"><img src="resources/thumbnail_6.jpg" class="img-thumbnail"
-                                                                   alt="thumbnail1">
-              <div class="overlay">
-                <div class="text">Corentin Rodrigo</div>
-              </div>
-            </div>
-      -->
 
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <a href="#ancre-web"><img src="resources/LONGBOARD_1.jpg" type="button" class="img-thumbnail hvr-grow-myworks"
+                                  alt="thumbnail1"></a>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <a href="#ancre-games">
+          <img src="resources/screenshot_map_icam.png"
+               class="img-thumbnail hvr-grow-myworks"
+               alt="thumbnail1"></a>
+      </div>
     </div>
   </div>
 </div>
 
 <div class="container-fluid">
   <div class="container">
-    <h1 id="ancre-brainshield" class="display-4 title-section">Antivirus</h1>
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 school">
+    <h1 id="ancre-brainshield" class="display-4 title-section  hvr-underline-from-center">Antivirus</h1>
+    <div class="row ">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid illum praesentium quibusdam quo
           rerum temporibus, tenetur. Accusantium deserunt dolores illo ipsa, iusto laborum odio omnis, optio perferendis
           quis sunt?</p>
 
-        <h3>Etudiant Chercheur | Mai 2019 – Aout 2020</h3>
-        <div class="media">
-          <img class="mr-3" src="resources/logo-brainshield.png" alt="Generic placeholder image">
+        <h3 class="hvr hvr-backward">Etudiant Chercheur | Mai 2019 – Aout 2020</h3>
+        <div class="media brainshield  d-block d-md-flex mt-4 logos">
+          <video class="d-flex mb-3 mx-auto media-image z-depth-1" width="250" controls>
+            <source src="resources/brainshield-video.mp4">
+            Your browser does not support HTML video.
+          </video>
+
+
           <div class="media-body">
-            <h5 class="mt-0">BrainShield: Conception et Developement d'un antivirus pour Android</h5>
+            <h5 class="mt-0 under">BrainShield: Conception et Developement d'un antivirus pour Android</h5>
             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio,
             vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec
             lacinia congue felis in faucibus.
 
-            <div class="media mt-3">
-              <a class="pr-3" href="#">
-                <img src="resources/logo-tensorflow.png" alt="Generic placeholder image">
-              </a>
-              <a class="pr-3" href="#">
-                <img src="resources/logo-kera-only-k.png" alt="Generic placeholder image">
-              </a>
+
+            <div class="media d-block d-md-flex mt-4">
+              <img class="hvr-grow" src="resources/logo-tensorflow.png" alt="Generic placeholder image">
+              <img class="hvr-grow" src="resources/logo-kera-only-k.png" alt="Generic placeholder image">
               <div class="media-body">
                 <h5 class="mt-0">Machine Learning</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
@@ -107,13 +85,9 @@
               </div>
 
             </div>
-            <div class="media mt-3">
-              <a class="pr-3" href="#">
-                <img src="resources/logo-android-studio.png" alt="Generic placeholder image">
-              </a>
-              <a class="pr-3" href="#">
-                <img src="resources/logo-android.png" alt="Generic placeholder image">
-              </a>
+            <div class="media d-block d-md-flex mt-4">
+              <img class="hvr-grow" src="resources/logo-kotlin.png" alt="Generic placeholder image">
+              <img class="hvr-grow" src="resources/logo-android.png" alt="Generic placeholder image">
               <div class="media-body">
                 <h5 class="mt-0">Front-end</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
@@ -122,13 +96,11 @@
               </div>
             </div>
 
-            <div class="media mt-3">
-              <a class="pr-3" href="#">
-                <img src="resources/logo-flask.png" alt="Generic placeholder image">
-              </a>
-              <a class="pr-3" href="#">
-                <img src="resources/logo-python.png" alt="Generic placeholder image">
-              </a>
+            <div class="media d-block d-md-flex mt-4">
+
+              <img class="hvr-grow" src="resources/logo-flask.png" alt="Generic placeholder image">
+              <img class="hvr-grow" src="resources/logo-python.png" alt="Generic placeholder image">
+
               <div class="media-body">
                 <h5 class="mt-0">Back-end</h5>
                 Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
@@ -141,25 +113,10 @@
       </div>
 
 
-
     </div>
   </div>
 </div>
-<div class="container-fluid">
-  <div class="container">
-    <div class="row more">
 
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><img src="resources/results.jpg"
-                                                              class="img-thumbnail"
-                                                              alt="thumbnail1">
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><img src="resources/BrainShield_Steps.PNG"
-                                                              class="img-thumbnail"
-                                                              alt="thumbnail1">
-      </div>
-    </div>
-  </div>
-</div>
 
 <!--
 <div class="container">
@@ -197,27 +154,51 @@
 
 <div class="container-fluid">
   <div class="container">
-    <h1 id="ancre-web" class="display-4 title-section">Web</h1>
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 school">
+    <h1 id="ancre-web" class="display-4 title-section hvr-underline-from-center">Web</h1>
+    <div class="row web">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid illum praesentium quibusdam quo
           rerum temporibus, tenetur. Accusantium deserunt dolores illo ipsa, iusto laborum odio omnis, optio perferendis
           quis sunt?</p>
 
-        <h3>Developpeur | Septembre 2017 – Decembre 2017</h3>
-        <div class="media">
-          <img class="mr-3" src="resources/logo-html.png" alt="Generic placeholder image">
-          <img class="mr-3" src="resources/logo-css.png" alt="Generic placeholder image">
-          <img class="mr-3" src="resources/logo-php.png" alt="Generic placeholder image">
-          <img class="mr-3" src="resources/logo-mySQL.png" alt="Generic placeholder image">
+        <h3 class="hvr hvr-backward">Developpeur | Septembre 2017 – Decembre 2017</h3>
+        <div class="media d-block d-md-flex mt-4">
+          <img class="mr-3 hvr-grow" src="resources/logo-html.png" alt="Generic placeholder image">
+          <img class="mr-3 hvr-grow" src="resources/logo-css.png" alt="Generic placeholder image">
+          <img class="mr-3 hvr-grow" src="resources/logo-php.png" alt="Generic placeholder image">
+          <img class="mr-3 hvr-grow" src="resources/logo-mySQL.png" alt="Generic placeholder image">
 
           <div class="media-body">
-            <h5 class="mt-0">Developpement d'un site marchand</h5>
-            Front-end: HTML/CSS
-            Back-end: PHP/MySQL
+            <h5 class="mt-0 hvr">Developpement d'un site marchand Longboard</h5>
+            Front-end: HTML/CSS <br>
+            Back-end: PHP/MySQL <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi asperiores assumenda beatae cum ipsa
+            iste officia officiis placeat, quaerat similique sint vero. Amet enim error, excepturi impedit quis
+            repudiandae!
           </div>
         </div>
       </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+
+        <h3 class="hvr hvr-backward">Developpeur | Aout 2020</h3>
+        <div class="media d-block d-md-flex mt-4">
+          <img class="mr-3 hvr-grow" src="resources/logo-html.png" alt="Generic placeholder image">
+          <img class="mr-3 hvr-grow" src="resources/logo-css.png" alt="Generic placeholder image">
+          <img class="mr-3 hvr-grow" src="resources/logo-boostrap.png" alt="Generic placeholder image">
+          <img class="mr-3 hvr-grow" src="resources/logo-javascript.png" alt="Generic placeholder image">
+
+          <div class="media-body">
+            <h5 class="mt-0">Developpement du Portfolio</h5>
+            Front-end: HTML/CSS/Bootstrap/Javascript <br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet animi asperiores assumenda beatae cum ipsa
+            iste officia officiis placeat, quaerat similique sint vero. Amet enim error, excepturi impedit quis
+            repudiandae!
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
@@ -251,20 +232,20 @@
    </div>-->
 
 
-  <div class="container-fluid">
+  <div class="container-fluid ">
     <div class="container">
-      <h1 id="ancre-games" class="display-4 title-section">Games</h1>
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 school">
+      <h1 id="ancre-games" class="display-4 title-section hvr-underline-from-center">Games</h1>
+      <div class="row unity">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid illum praesentium quibusdam quo
             rerum temporibus, tenetur. Accusantium deserunt dolores illo ipsa, iusto laborum odio omnis, optio
             perferendis
             quis sunt?</p>
 
-          <h3>Developpeur | Janvier 2018 – Juillet 2018</h3>
-          <div class="media">
-            <img class="mr-3" src="resources/logo-unity.png" alt="Generic placeholder image">
-            <div class="media-body">
+          <h3 class="hvr hvr-backward">Developpeur | Janvier 2018 – Juillet 2018</h3>
+          <div class="media d-block d-md-flex mt-4">
+            <img class="mr-3 hvr-grow" src="resources/logo-unity.png" alt="Generic placeholder image">
+            <div class="media-body games">
               <h5 class="mt-0">Création et développement d'un jeu en auto-formation via Unity</h5>
               Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus
               odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate
@@ -276,6 +257,18 @@
     </div>
 
 
+    <div class="container">
+      <div class="row myWork">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><img src="resources/screenshot-carte.png"
+                                                                class="img-thumbnail hvr-grow-pic"
+                                                                alt="thumbnail1">
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <img src="resources/screenshot-lunette-retouche.jpeg" class="img-thumbnail hvr-grow-pic" alt="thumbnail1">
+        </div>
+      </div>
+    </div>
     <!--<div class="container">
       <div class="row div-carousel">
         <div id="game-carousel" class="carousel slide" data-ride="carousel">
@@ -308,9 +301,25 @@
     </div>-->
 
 
+    <div class="container-fluid ">
+      <div class="container">
+        <h1 class="display-4 title-section hvr-underline-from-center">Outils</h1>
+        <div class="row outils">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <img class="hvr-grow" src="resources/logo-android-studio.png" alt="...">
+            <img class="hvr-grow" src="resources/logo-git.png" alt="">
+            <img class="hvr-grow" src="resources/logo-vmware.png" alt="">
+            <img class="hvr-grow" src="resources/logo-django.png" alt="">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <div class="container-fluid">
       <div class="container">
-        <h1 class="display-4 title-section">Formations</h1>
+        <h1 class="display-4 title-section hvr-underline-from-center">Formations</h1>
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 school">
             <a href="https://www.icam.fr/"><h1>Icam</h1></a>
@@ -335,21 +344,20 @@
     </div>
   </div>
 </div>
+
+<div id="particles-js"></div>
+
 <footer class="page-footer font-small blue">
   <div class="container">
     <div class="row">
       <div class="mx-auto">
         <!--          <i class='fab fa-linkedin-in' style='font-size:48px;color:red'></i>-->
 
-        <a target="_blank" href="https://www.linkedin.com/in/corentin-rodrigo-61a181154/"><i
-          class='fab fa-linkedin-in small-logos' style='font-size:2em;color:black'></i></a>
-        <a target="_blank" href="https://github.com/Hackamo"><i
-          class='fab fa-github small-logos' style='font-size:2em;color:black'></i>
-        </a>
-        <a target="_blank" href="https://twitter.com/CorentinRodrigo"> <i
-          class='fab fa-twitter small-logos' style='font-size:2em;color:black'></i>
-        </a>
-
+        <a class="hvr-grow" target="_blank" href="https://www.linkedin.com/in/corentin-rodrigo-61a181154/"><i
+          class='fab fa-linkedin-in small-logos'></i></a>
+        <a class="hvr-grow" target="_blank" href="https://github.com/Hackamo"><i class='fab fa-github small-logos'></i></a>
+        <a class="hvr-grow" target="_blank" href="https://twitter.com/CorentinRodrigo"><i
+          class='fab fa-twitter small-logos'></i></a>
       </div>
     </div>
 
@@ -374,6 +382,8 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/e592a69a21.js" crossorigin="anonymous"></script>
+<script type="text/javascript" src="particles.js"></script>
+<script type="text/javascript" src="app.js"></script>
 
 
 </body>
