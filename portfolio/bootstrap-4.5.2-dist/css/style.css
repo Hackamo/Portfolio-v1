@@ -1,0 +1,112 @@
+* {
+  scroll-behavior: smooth;
+}
+.home {
+  background-image: url("../../resources/wallpaper1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 1080px ;
+  color: mintcream;
+  display: flex;
+  align-content: center;
+}
+
+.img-thumbnail {
+  border: 0;
+  border-radius: 2em;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.myWork{
+  align-items: center;
+}
+
+
+
+.overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
+
+}
+.overlay:hover {
+  opacity: 1;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  padding: 12px 24px;
+  border-radius: 2em;
+}
+
+.title-section{
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.small-logos{
+  margin: 1em;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: black;
+}
+
+.media img{
+  width: 64px;
+}
+
+.carousel{
+  border-radius: 2em;
+  overflow: hidden;
+  width: 75%;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 300px; /* example */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.div-carousel{
+  justify-content: center;
+  margin-top: 2em;
+}
+
+
+.more img{
+  height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
