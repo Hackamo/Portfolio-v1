@@ -1,5 +1,5 @@
-This is my Portfolio (v1)
-Is was developed in 2 days in August 2020 (as my cv).
+This is my Portfolio.
+https://www.corentinrodrigo.info/
 
 ![alt text](https://github.com/Hackamo/Portfolio-v1/blob/master/portfolio-1.png?raw=true)
 ![alt text](https://github.com/Hackamo/Portfolio-v1/blob/master/portfolio-2.png?raw=true)
