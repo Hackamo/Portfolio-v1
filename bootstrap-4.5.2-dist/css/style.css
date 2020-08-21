@@ -1,0 +1,240 @@
+* {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid{
+  margin-top: 100px;
+}
+
+.container{
+}
+.home {
+  background-image: url("../../resources/wallpaperhd.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 1080px ;
+  color: mintcream;
+  z-index: 1;
+}
+
+.home h1{
+  padding-top: 20vw;
+}
+
+.btn {
+  z-index: 1;
+}
+
+
+.img-thumbnail {
+  border-radius: 1em;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  overflow: hidden;
+  padding:0;
+  border-color: white;
+  z-index: -1;
+}
+
+.myWork{
+  align-items: center;
+}
+
+
+
+.overlay {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
+}
+.overlay:hover {
+  opacity: 1;
+}
+
+
+.title-section{
+  margin-bottom: 0.5em;
+}
+
+.small-logos{
+  padding-left: 1em;
+  font-size:2em;
+  color:black;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: black;
+}
+
+.media img{
+  width: 64px;
+}
+
+.carousel{
+  border-radius: 2em;
+  overflow: hidden;
+  width: 75%;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 300px; /* example */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.div-carousel{
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.brainshield img{
+  justify-self: center;
+}
+.brainshield video{
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.media-body{
+  margin-left: 20px;
+}
+.media-body img{
+  margin: 0.5em;
+}
+
+.games{
+  margin: 1em;
+}
+
+.unity img{
+  align-self: center;
+}
+
+.web img{
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+#particles-js{
+  top: 0;
+  position: absolute;
+  height: 1080px;
+  width: 100%;
+  z-index: 1;
+}
+
+.outils{
+  display: flex;
+  justify-content: center ;
+
+}
+.outils img{
+  width: 100px;
+  padding-left: 1em;
+}
+
+.brainshield h5{
+  background-color: #FFBD09;
+  color: white;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 10px;
+}
+
+.web h5{
+  background-color: #4267b2;
+  color: white;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 10px;
+}
+
+.unity h5{
+  background-color: #343a40; /*343a40*/
+  color: white;
+  border-radius: 20px;
+  width: fit-content;
+  padding: 10px;
+}
+
+.backend {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.hvr-grow-pic {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow-pic:hover, .hvr-grow-pic:focus, .hvr-grow-pic:active {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  position: relative;
+
+  z-index: 1;
+}
+
+.hvr-grow-myworks {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow-myworks:hover, .hvr-grow-pic:focus, .hvr-grow-pic:active {
+  -webkit-transform: scale(1.6);
+  transform: scale(1.6);
+  z-index: 1;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
