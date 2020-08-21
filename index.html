@@ -370,7 +370,7 @@
 
 
     <div class="row mail" >
-      <h4 class="hvr hvr-backward " id="mail" >corentin.rodrigo@2019.icam.fr</h4>
+      <h4 class="hvr hvr-backward data-clipboard-text " id="mail" >corentin.rodrigo@2019.icam.fr</h4>
       <button id="button" class="btn btn-outline-dark" onclick="copyToClipboard('#mail')">Copy</button>
     </div>
 
@@ -408,7 +408,10 @@
     $temp.val($(element).text()).select();
     document.execCommand("copy");
     $temp.remove();
-
+    document.getElementById("button").textContent = "Copied!";
+    setTimeout(function (){
+      document.getElementById("button").textContent = "Copy";
+    },2000);
   }
 
 </script>
@@ -421,7 +424,6 @@
 <script>ScrollReveal().reveal(".row", { easing: 'ease-in-out',delay: 650 })</script>
 
 <script>ScrollReveal().reveal(".btn-outline-light", { easing: 'ease-in-out',delay: 1000 })</script>
-
 
 </body>
 </html>
