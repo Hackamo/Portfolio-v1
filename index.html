@@ -7,9 +7,9 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.css">
-  <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/style.css">
   <link rel="stylesheet" href="hover.css">
-  <title>Corentin Rodrigo Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio Corentin Rodrigo</title>
 </head>
 
 
@@ -17,18 +17,35 @@
 
 <div class="home">
   <div class="container">
-    <h1 class="display-1 ">Hi, I'm Corentin Rodrigo</h1>
-    <h2 class="display-4 ">Web Developer and Machine Learning Engineer</h2>
-    <a href="#ancre-works" type="button" class="btn btn-outline-light">Scroll to see my works</a>
+    <h1 class="display-1 ">Salut, c'est Corentin Rodrigo</h1>
+    <h2 class="display-4 ">Développeur Web et Ingénieur Machine Learning </h2>
+    <a href="#ancre-works" type="button" class="btn btn-outline-light">Mon travail</a>
     <!--      <h1 class="display-1" style="font-size: 5vw">h1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis dicta, distinctio dolore enim, eos harum inventore laboriosam libero maxime nam odit officia perspiciatis quia quod reprehenderit sapiente unde vel!</h1>-->
     <!--      <h2 class="display-4" style="font-size: 2vw" >h2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam consequatur consequuntur, debitis distinctio error explicabo facere, harum hic maiores natus non nostrum obcaecati odit perspiciatis soluta, suscipit veritatis vero.</h2>-->
+    <div class="container">
+      <div class="row contact-me-home">
+        <div class="mx-auto">
+          <!--          <i class='fab fa-linkedin-in' style='font-size:48px;color:red'></i>-->
+          <a class="hvr-grow" target="_blank" href="https://www.linkedin.com/in/corentin-rodrigo-61a181154/"><i
+            class='fab fa-linkedin-in small-logos-white'></i></a>
+          <a class="hvr-grow" target="_blank" href="https://github.com/Hackamo"><i
+            class='fab fa-github small-logos-white'></i></a>
+          <a class="hvr-grow" target="_blank" href="https://twitter.com/CorentinRodrigo"><i
+            class='fab fa-twitter small-logos-white'></i></a>
+          <a class="hvr-grow" target="_blank" href=mailto:corentin.rodrigo@2019.icam.fr><i
+            class='fas fa-envelope small-logos-white'></i></a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 
 <div class="container-fluid" id="ancre-works">
+  <div id="particles-js"></div>
+
   <div class="container">
-    <h1 class="display-4 title-section hvr-underline-from-center">My Works</h1>
+    <h1 class="display-4 title-section hvr-underline-from-center">Travaux</h1>
     <div class="row myWork">
       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <a href="#ancre-brainshield">
@@ -56,10 +73,11 @@
     <div class="row ">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <p>BrainShield est le nom de l'application développé dans le cadre de mon mémoire de
-          recherche scientifique à l'École Polytechnique de Montréal au sein du laboratoire de recherche en réseautique
+          recherche scientifique à l'École Polytechnique de Montréal au sein du laboratoire de recherche en
+          réseautique
           et
           informatique mobile (LARIM). Bourse de recherche du CRSNG et lauréat du meilleur mémoire. </p>
-        <h3 class="hvr hvr-backward">Etudiant Ingénieur Chercheur | Mai 2019 – Aout 2020</h3>
+        <h3 class="hvr hvr-backward">Étudiant Ingénieur Chercheur | Mai 2019 – Août 2020</h3>
         <div class="media brainshield  d-block d-md-flex mt-4 logos">
           <video class="d-flex mb-3 mx-auto media-image z-depth-1" width="250" controls>
             <source src="resources/brainshield-video.mp4">
@@ -69,9 +87,9 @@
 
           <div class="media-body">
             <h5 class="mt-0 under">BrainShield: Conception et Développement d'un antivirus pour Android</h5>
-            BrainShield analyse les applications Android de votre terminal et détecte les logiciels malveillants.
+            BrainShield analyse les applications de votre terminal Android et détecte les logiciels malveillants
             Basé sur du Machine Learning, elle est un exemple de l'intelligence artificielle au service de la sécurité
-            informatique.
+            informatique
 
 
             <div class="media d-block d-md-flex mt-4">
@@ -79,8 +97,8 @@
               <img class="hvr-grow" src="resources/logo-kera-only-k.png" alt="Generic placeholder image">
               <div class="media-body">
                 <h5 class="mt-0">Machine Learning</h5>
-                Les réseaux de neurones sont au coeur de ce projet. Nous avons eu recours à des librairies comme
-                TensorFlow, Keras et scikit-learn.
+                Les réseaux de neurones sont au coeur de ce projet. Les librairies
+                TensorFlow, Keras et scikit-learn sont utilisés
               </div>
 
             </div>
@@ -90,7 +108,7 @@
               <div class="media-body">
                 <h5 class="mt-0">Front-end</h5>
                 L'application Android permet à l'utilisateur de sélectionner les applications Android à analyser et
-                d'afficher les résultats.
+                d'afficher les résultats
               </div>
             </div>
 
@@ -102,8 +120,7 @@
               <div class="media-body">
                 <h5 class="mt-0">Back-end</h5>
                 Pour chaque application, le serveur AWS effectue une extraction des caractéristiques et le réseau de
-                neurones effectue
-                les prédictions.
+                neurones effectue les prédictions
               </div>
             </div>
           </div>
@@ -156,18 +173,16 @@
     <div class="row web">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-        <h3 class="hvr hvr-backward">Développeur | Septembre 2017 – Decembre 2017</h3>
+        <h3 class="hvr hvr-backward">Développeur | Septembre 2017 – Décembre 2017</h3>
         <div class="media d-block d-md-flex mt-4">
-          <img class="mr-3 hvr-grow" src="resources/logo-html.png" alt="Generic placeholder image">
-          <img class="mr-3 hvr-grow" src="resources/logo-css.png" alt="Generic placeholder image">
+          <img class="mr-3 hvr-grow" src="resources/logo-html-css.png" alt="Generic placeholder image">
           <img class="mr-3 hvr-grow" src="resources/logo-php.png" alt="Generic placeholder image">
           <img class="mr-3 hvr-grow" src="resources/logo-mySQL.png" alt="Generic placeholder image">
 
           <div class="media-body">
-            <h5 class="mt-0 hvr">Développement d'un e-commerce de Longboard</h5>
-            <p>Premier site web développé en complète autonomie</p>
-            Front-end: HTML, CSS <br>
-            Back-end: PHP, MySQL
+            <h5 class="mt-0 hvr">Site e-commerce de Longboard</h5>
+            <p>Premier projet dans le cadre universitaire. Conception de la base de donnée et développement de
+              l'interface utilisateur et serveur</p>
           </div>
         </div>
       </div>
@@ -175,17 +190,15 @@
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
 
-        <h3 class="hvr hvr-backward">Développeur | Aout 2020</h3>
+        <h3 class="hvr hvr-backward">Développeur | Août 2020</h3>
         <div class="media d-block d-md-flex mt-4">
-          <img class="mr-3 hvr-grow" src="resources/logo-html.png" alt="Generic placeholder image">
-          <img class="mr-3 hvr-grow" src="resources/logo-css.png" alt="Generic placeholder image">
+          <img class="mr-3 hvr-grow" src="resources/logo-html-css.png" alt="Generic placeholder image">
           <img class="mr-3 hvr-grow" src="resources/logo-boostrap.png" alt="Generic placeholder image">
           <img class="mr-3 hvr-grow" src="resources/logo-javascript.png" alt="Generic placeholder image">
 
           <div class="media-body">
-            <h5 class="mt-0">Développement du Portfolio</h5>
-            <p>Deuxième site web</p>
-            Front-end: HTML, CSS, Bootstrap, JavasSript <br>
+            <h5 class="mt-0">Portfolio</h5>
+            <p>Projet personnel développé et déployé en autonomie</p>
           </div>
         </div>
       </div>
@@ -233,10 +246,10 @@
           <div class="media d-block d-md-flex mt-4">
             <img class="mr-3 hvr-grow" src="resources/logo-unity.png" alt="Generic placeholder image">
             <div class="media-body games">
-              <h5 class="mt-0">Développement de 2 jeux en auto-formation</h5>
-              1er jeu vidéo: combat de cartes en réalité augmentée. La caméra détecte les cartes et les
-              avatars des cartes apparaissent pour un combat.
-              <p>2eme jeu vidéo: visite Icam Horizon 2020. Un casque de réalité virtuelle et une
+              <h5 class="mt-0">Jeux vidéos en Réalité Augmenté et Réalité Virtuelle</h5>
+              1er jeu vidéo : combat de cartes en réalité augmentée. La caméra détecte les cartes et les
+              avatars des cartes apparaissent pour un combat
+              <p>2e jeu vidéo : visite Icam Horizon 2020. Un casque de réalité virtuelle et une
                 manette permet de se déplacer dans les nouveaux locaux de l'école pour les forums de recrutement</p>
             </div>
           </div>
@@ -298,7 +311,6 @@
             <img class="hvr-grow" src="resources/logo-git.png" alt="">
             <img class="hvr-grow" src="resources/logo-vmware.png" alt="">
             <img class="hvr-grow" src="resources/logo-django.png" alt="">
-
           </div>
         </div>
       </div>
@@ -325,10 +337,12 @@
             Maitrise Scientifique (M.Sc.A)
             <p>2018-2020</p>
             <p>Polytechnique Montréal, l'université d'ingénierie, est l’un des plus importants établissements de
-              formation et de recherche en génie au Canada. Fidèle à sa mission depuis 1873, elle a formé plus de 50 000
-              ingénieurs, spécialistes et chercheurs.
-              Polytechnique effectue d'importantes découvertes dans toutes les sphères du génie et des technologies, et
-              ses réalisations sont diffusées au Canada et dans le monde entier.</p>
+              formation et de recherche en génie au Canada. Fidèle à sa mission depuis 1873, elle a formé plus de 50
+              000
+              ingénieurs, spécialistes et chercheurs
+              Polytechnique effectue d'importantes découvertes dans toutes les sphères du génie et des technologies,
+              et
+              ses réalisations sont diffusées au Canada et dans le monde entier</p>
             <!--        <img src="resources/logo-polytechnique.png" class="img-fluid" alt="Responsive image">>-->
           </div>
         </div>
@@ -337,21 +351,29 @@
   </div>
 </div>
 
-<div id="particles-js"></div>
 
 <footer class="page-footer font-small blue">
   <div class="container">
     <div class="row">
       <div class="mx-auto">
         <!--          <i class='fab fa-linkedin-in' style='font-size:48px;color:red'></i>-->
-
         <a class="hvr-grow" target="_blank" href="https://www.linkedin.com/in/corentin-rodrigo-61a181154/"><i
-          class='fab fa-linkedin-in small-logos'></i></a>
-        <a class="hvr-grow" target="_blank" href="https://github.com/Hackamo"><i class='fab fa-github small-logos'></i></a>
+          class='fab fa-linkedin-in small-logos-black'></i></a>
+        <a class="hvr-grow" target="_blank" href="https://github.com/Hackamo"><i
+          class='fab fa-github small-logos-black'></i></a>
         <a class="hvr-grow" target="_blank" href="https://twitter.com/CorentinRodrigo"><i
-          class='fab fa-twitter small-logos'></i></a>
+          class='fab fa-twitter small-logos-black'></i></a>
+        <a class="hvr-grow" target="_blank" href=mailto:corentin.rodrigo@2019.icam.fr><i
+          class='fas fa-envelope small-logos-black'></i></a>
       </div>
     </div>
+
+
+    <div class="row mail" >
+      <h4 class="hvr hvr-backward " id="mail" >corentin.rodrigo@2019.icam.fr</h4>
+      <button id="button" class="btn btn-outline-dark" onclick="copyToClipboard('#mail')">Copy</button>
+    </div>
+
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
@@ -377,6 +399,17 @@
 <script type="text/javascript" src="particles.js"></script>
 <script type="text/javascript" src="app.js"></script>
 
+<script>
+  function copyToClipboard(element) {
+    let $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val($(element).text()).select();
+    document.execCommand("copy");
+    $temp.remove();
+
+  }
+
+</script>
 
 </body>
 </html>
