@@ -14,7 +14,10 @@ body {
   margin-top: 100px;
 }
 
-.container {
+
+
+.container-home {
+  max-width: 85%;
 }
 
 .home {
@@ -288,7 +291,7 @@ a:hover {
 }
 
 .contact-me-home {
-  top: 800px;
+  top: 900px;
   position: absolute;
   width: 100%;
   left: 0px;
