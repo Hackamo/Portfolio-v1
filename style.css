@@ -297,4 +297,34 @@ a:hover {
   left: 0px;
 }
 
+#game-board {
+  /*opacity: 0;*/
+  background-color: #ccc;
+  /*width: 90vmin;*/
+  /*height: 90vmin;*/
+
+  display: grid;
+  grid-template-rows: repeat(21, 1fr);
+  grid-template-columns: repeat(21, 1fr);
+}
+
+.snake {
+  background-size: auto;
+  background-image: url("snake-js/ressources/body-h.png");
+  /*background-color: forestgreen;*/
+  /*border: .01vmin solid black;*/
+  /*border-radius: 5px;*/
+}
+
+
+.food {
+  background-size: contain;
+  background-image: url("snake-js/ressources/apple.png");
+  border-radius: 5px;
+  background-position: center;
+}
+
+#star-game-button:hover {
+}
+
 

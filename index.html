@@ -4,7 +4,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:image" content="https://github.com/Hackamo/Portfolio-v1/blob/master/portfolio-1.png)" />
+  <meta property="og:image" content="https://github.com/Hackamo/Portfolio-v1/blob/master/portfolio-1.png)"/>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="bootstrap-4.5.2-dist/css/bootstrap.css">
   <link rel="stylesheet" href="hover.css">
@@ -48,17 +48,17 @@
     <h1 class="display-4 title-section hvr-underline-from-center">Travaux</h1>
     <div class="row myWork">
       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <a href="#ancre-brainshield">
+        <a href="#brainshield">
           <img src="resources/BrainShield_Steps.PNG" class="img-thumbnail hvr-grow-myworks" alt="thumbnail1"></a>
       </div>
 
       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <a href="#ancre-web"><img src="resources/LONGBOARD_1.jpg" class="img-thumbnail hvr-grow-myworks"
+        <a href="#web"><img src="resources/LONGBOARD_1.jpg" class="img-thumbnail hvr-grow-myworks"
                                   alt="thumbnail1"></a>
       </div>
 
       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-        <a href="#ancre-games">
+        <a href="#games">
           <img src="resources/screenshot_map_icam.png"
                class="img-thumbnail hvr-grow-myworks"
                alt="thumbnail1"></a>
@@ -69,7 +69,7 @@
 
 <div class="container-fluid">
   <div class="container">
-    <h1 id="ancre-brainshield" class="display-4 title-section  hvr-underline-from-center">BrainShield Antivirus</h1>
+    <h1 id="brainshield" class="display-4 title-section  hvr-underline-from-center">BrainShield Antivirus</h1>
     <div class="row ">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <p>BrainShield est le nom de l'application développée dans le cadre de mon mémoire de
@@ -169,16 +169,16 @@
 
 <div class="container-fluid">
   <div class="container">
-    <h1 id="ancre-web" class="display-4 title-section hvr-underline-from-center">Web</h1>
+    <h1 id="web" class="display-4 title-section hvr-underline-from-center">Web</h1>
     <div class="row web">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <h3 class="hvr hvr-backward">Développeur | Septembre 2017 – Décembre 2017</h3>
         <div class="media d-block d-md-flex mt-4">
           <img class="mr-3 hvr-grow" src="resources/logo-html-css.png" alt="Generic placeholder image">
           <img class="mr-3 hvr-grow" src="resources/logo-php.png" alt="Generic placeholder image">
           <img class="mr-3 hvr-grow" src="resources/logo-mySQL.png" alt="Generic placeholder image">
-
           <div class="media-body">
             <h5 class="mt-0 hvr">Site e-commerce de Longboard</h5>
             <p>Premier projet dans le cadre universitaire. Conception de la base de données et développement de
@@ -188,17 +188,29 @@
       </div>
 
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
-
         <h3 class="hvr hvr-backward">Développeur | Août 2020</h3>
         <div class="media d-block d-md-flex mt-4">
           <img class="mr-3 hvr-grow" src="resources/logo-html-css.png" alt="Generic placeholder image">
           <img class="mr-3 hvr-grow" src="resources/logo-boostrap.png" alt="Generic placeholder image">
           <img class="mr-3 hvr-grow" src="resources/logo-javascript.png" alt="Generic placeholder image">
-
           <div class="media-body">
             <h5 class="mt-0">Portfolio</h5>
             <p>Projet personnel développé et déployé en autonomie</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <h3 class="hvr hvr-backward">Développeur | Août 2020</h3>
+        <div class="media d-block d-md-flex mt-4">
+          <img class="mr-3 hvr-grow" src="resources/logo-javascript.png" alt="Generic placeholder image">
+          <div id="game-board"></div>
+
+          <div class="media-body">
+            <h5 class="mt-0">Jeu Snake</h5>
+            <p>Projet personnel développé en JS</p>
+            <button onclick="onStartGame()" type="button" id ="star-game-button" class="btn btn-outline-dark">Start Snake</button>
+
           </div>
         </div>
       </div>
@@ -238,7 +250,7 @@
 
   <div class="container-fluid ">
     <div class="container">
-      <h1 id="ancre-games" class="display-4 title-section hvr-underline-from-center">Jeux Vidéo</h1>
+      <h1 id="games" class="display-4 title-section hvr-underline-from-center">Jeux Vidéo</h1>
       <div class="row unity">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
@@ -368,12 +380,10 @@
     </div>
 
 
-    <div class="row mail" >
-      <h4 class="hvr hvr-backward data-clipboard-text " id="mail" >corentin.rodrigo@2019.icam.fr</h4>
+    <div class="row mail">
+      <h4 class="hvr hvr-backward data-clipboard-text " id="mail">corentin.rodrigo@2019.icam.fr</h4>
       <button id="button" class="btn btn-outline-dark" onclick="copyToClipboard('#mail')">Copy</button>
     </div>
-
-
 
 
     <!-- Copyright -->
@@ -408,21 +418,35 @@
     document.execCommand("copy");
     $temp.remove();
     document.getElementById("button").textContent = "Copied!";
-    setTimeout(function (){
+    setTimeout(function () {
       document.getElementById("button").textContent = "Copy";
-    },2000);
+    }, 2000);
   }
 
 </script>
 <script src="https://unpkg.com/scrollreveal"></script>
-<script>ScrollReveal({ distance: '80px' })</script>
+<script>ScrollReveal({distance: '80px'})</script>
 
-<script>ScrollReveal().reveal(".display-1", { delay: 400 })</script>
-<script>ScrollReveal().reveal(".display-4", { delay: 500 })</script>
+<script>ScrollReveal().reveal(".display-1", {delay: 400})</script>
+<script>ScrollReveal().reveal(".display-4", {delay: 500})</script>
 
-<script>ScrollReveal().reveal(".row", { easing: 'ease-in-out',delay: 650 })</script>
+<script>ScrollReveal().reveal(".row", {easing: 'ease-in-out', delay: 650})</script>
 
-<script>ScrollReveal().reveal(".btn-outline-light", { easing: 'ease-in-out',delay: 1000 })</script>
+<script>ScrollReveal().reveal(".btn-outline-light", {easing: 'ease-in-out', delay: 1000})</script>
+
+<script src="snake-js/game.js" type="module"></script>
+
+
+<script>
+  function onStartGame()  {
+    document.getElementById('game-board').style.opacity = "1";
+    document.getElementById('star-game-button').disabled = true;
+    document.getElementById('star-game-button').textContent = "Already played";
+    document.getElementById('game-board').style.width = "90vmin";
+    document.getElementById('game-board').style.height = "90vmin";
+
+  }
+</script>
 
 </body>
 </html>
