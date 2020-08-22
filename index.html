@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
@@ -15,7 +15,7 @@
 
 <body>
 
-<div class="home">
+<div class="home" id="landing-page">
   <div class="container container-home">
     <h1 class="display-1 ">Bonjour, c'est Corentin Rodrigo</h1>
     <h2 class="display-4 ">Développeur Web et Ingénieur Machine Learning </h2>
@@ -40,12 +40,27 @@
   </div>
 </div>
 
+<div class="navbar navbar-expand-sm bg-secondary" id="mainNav">
+  <div class="container"><a class="navbar-brand js-scroll-trigger" href="#landing-page">CORENTIN RODRIGO</a>
+    <button class="navbar-toggler navbar-toggler-left font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger " href="#brainshield">MACHINE LEARNING</a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#web">WEB</a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#games">GAMES</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-<div class="container-fluid" id="ancre-works">
+<div class="container-fluid anchor" id="ancre-works">
   <div id="particles-js"></div>
 
   <div class="container">
-    <h1 class="display-4 title-section hvr-underline-from-center">Travaux</h1>
+    <h1 class="display-4 title-section hvr-underline-from-center anchor">Travaux</h1>
     <div class="row myWork">
       <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
         <a href="#brainshield">
@@ -69,7 +84,7 @@
 
 <div class="container-fluid">
   <div class="container">
-    <h1 id="brainshield" class="display-4 title-section  hvr-underline-from-center">BrainShield Antivirus</h1>
+    <h1 id="brainshield" class="display-4 title-section hvr-underline-from-center anchor">BrainShield Antivirus</h1>
     <div class="row ">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <p>BrainShield est le nom de l'application développée dans le cadre de mon mémoire de
@@ -169,7 +184,7 @@
 
 <div class="container-fluid">
   <div class="container">
-    <h1 id="web" class="display-4 title-section hvr-underline-from-center">Web</h1>
+    <h1 id="web" class="display-4 title-section hvr-underline-from-center anchor">Web</h1>
     <div class="row web">
 
 
@@ -204,7 +219,7 @@
         <h3 class="hvr hvr-backward">Développeur | Août 2020</h3>
         <div class="media d-block d-md-flex mt-4">
           <img class="mr-3 hvr-grow" src="resources/logo-javascript.png" alt="Generic placeholder image">
-          <div id="game-board"></div>
+          <div id="game-board anchor"></div>
 
           <div class="media-body">
             <h5 class="mt-0">Jeu Snake</h5>
@@ -250,7 +265,7 @@
 
   <div class="container-fluid ">
     <div class="container">
-      <h1 id="games" class="display-4 title-section hvr-underline-from-center">Jeux Vidéo</h1>
+      <h1 id="games" class="display-4 title-section hvr-underline-from-center anchor">Jeux Vidéo</h1>
       <div class="row unity">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
@@ -449,9 +464,26 @@
     document.getElementById('star-game-button').textContent = "Already played";
     document.getElementById('game-board').style.width = "90vmin";
     document.getElementById('game-board').style.height = "90vmin";
-
   }
 </script>
 
+
+<script>// When the user scrolls the page, execute myFunction
+window.onscroll = function() {stickyNav()};
+
+// Get the navbar
+let navbar = document.getElementById("mainNav");
+
+// Get the offset position of the navbar
+let sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function stickyNav() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}</script>
 </body>
 </html>

@@ -7,6 +7,7 @@
 
 body {
   background-color: #f5f7f7;
+
 }
 
 
@@ -15,13 +16,12 @@ body {
 }
 
 
-
 .container-home {
   max-width: 85%;
 }
 
 .home {
-  background-image: url("resources/wallpaper7.jpg");
+  background-image: url("resources/wallpaper7-sized.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -34,13 +34,9 @@ body {
   padding-top: 20vw;
 }
 
-.home h2{
+.home h2 {
   font-size: 50px;
   margin-bottom: 20px;
-}
-
-.btn {
-  z-index: 1;
 }
 
 
@@ -223,8 +219,6 @@ a:hover {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
   position: relative;
-
-  z-index: 1;
 }
 
 .hvr-grow-myworks {
@@ -286,7 +280,7 @@ a:hover {
   justify-content: center;
 }
 
-.mail button{
+.mail button {
   margin-left: 10px;
 }
 
@@ -294,7 +288,7 @@ a:hover {
   top: 900px;
   position: absolute;
   width: 100%;
-  left: 0px;
+  left: 0;
 }
 
 #game-board {
@@ -324,7 +318,37 @@ a:hover {
   background-position: center;
 }
 
-#star-game-button:hover {
+
+#mainNav {
+  font-weight: 700;
+  z-index: 2;
+  background-color: black;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+.anchor {
+  padding-top: 90px;
+}
+
+.nav-link {
+  color: #dee2e6;
+}
+
+.navbar-brand {
+  color: #dee2e6;
+}
+
+
+
 
 
