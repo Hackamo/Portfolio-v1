@@ -325,6 +325,23 @@ a:hover {
   background-color: black;
 }
 
+#mainNav .navbar-brand {
+  color: #fff
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link {
+  color: #fff
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: lavender;
+}
+
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: #1abc9c
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -342,13 +359,12 @@ a:hover {
 
 .nav-link {
   color: #dee2e6;
+  margin-left: 10px;
+  padding-left: 15px;
 }
+
 
 .navbar-brand {
   color: #dee2e6;
 }
-
-
-
-
 
