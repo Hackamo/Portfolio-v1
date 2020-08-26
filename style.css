@@ -434,6 +434,12 @@ a:hover {
     color: dodgerblue;
 }
 
+#portfolio img {
+    height: 220px;
+    object-fit: scale-down;
+
+}
+
 #formation  {
     padding-top: 4rem;
 }
