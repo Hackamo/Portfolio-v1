@@ -135,7 +135,7 @@ a:hover {
 }
 
 .media-body {
-    margin-left: 20px;
+    padding-left: 5rem;
 }
 
 .media-body img {
@@ -184,28 +184,28 @@ a:hover {
 }
 
 .brainshield h5 {
-    background-color: #FFBD09;
-    color: white;
-    border-radius: 20px;
-    width: fit-content;
-    padding: 10px;
+    /*background-color: #FFBD09;*/
+    /*color: white;*/
+    /*border-radius: 20px;*/
+    /*width: fit-content;*/
+    /*padding: 10px;*/
 }
 
-.web h5 {
-    background-color: #4267b2;
-    color: white;
-    border-radius: 20px;
-    width: fit-content;
-    padding: 10px;
-}
+/*.web h5 {*/
+/*    background-color: #4267b2;*/
+/*    color: white;*/
+/*    border-radius: 20px;*/
+/*    width: fit-content;*/
+/*    padding: 10px;*/
+/*}*/
 
-.unity h5 {
-    background-color: #343a40; /*343a40*/
-    color: white;
-    border-radius: 20px;
-    width: fit-content;
-    padding: 10px;
-}
+/*.unity h5 {*/
+/*    background-color: #343a40; !*343a40*!*/
+/*    color: white;*/
+/*    border-radius: 20px;*/
+/*    width: fit-content;*/
+/*    padding: 10px;*/
+/*}*/
 
 .backend {
     display: flex;
@@ -363,7 +363,7 @@ a:hover {
 
 
 .anchor {
-    padding-top: 90px;
+    padding-top: 150px;
 }
 
 .nav-link {
@@ -450,6 +450,52 @@ a:hover {
     padding-top: 2rem;
 }
 
+#footer {
+    margin-top: 5rem;
+}
+
 .footer-copyright a {
     color: #d5d5d5;
+}
+
+.scroll-down {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 30px;
+    bottom: 60px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: '';
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
+    background-color: #fff;
+    border-radius: 100%;
+    animation: scroll-down_btn-animation 1.5s infinite;
+    box-sizing: border-box;
+}
+
+@keyframes scroll-down_btn-animation {
+    0%{
+        opacity: 0;
+        transform: translateY(0rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(1rem);
+    }
+
 }
