@@ -46,7 +46,7 @@ body {
     backface-visibility: hidden;
     overflow: hidden;
     padding: 0;
-    border-color: white;
+    border-color: #fff9f2;
     z-index: -1;
 }
 
@@ -79,7 +79,7 @@ body {
 .small-logos-black {
     padding-left: 1em;
     font-size: 2em;
-    color: black;
+    color: #02021b;
     margin: 10px;
 }
 
@@ -87,7 +87,7 @@ body {
     padding-left: 1em;
     padding-top: 2rem;
     font-size: 2em;
-    color: white;
+    color: #fff9f2;
     margin: 1rem;
 }
 
@@ -104,7 +104,6 @@ a:hover {
     color: #ffae00;
     text-decoration: none;
 }
-
 
 
 .media img {
@@ -306,8 +305,8 @@ a:hover {
 
 .mail button:hover {
     border-color: #ffae00;
-    color: black;
-    background-color: #ffae00 ;
+    color: #02021b;
+    background-color: #ffae00;
 }
 
 #star-game-button {
@@ -319,9 +318,10 @@ a:hover {
 
 #star-game-button:hover {
     border-color: #ffae00;
-    color: black;
-    background-color: #ffae00 ;
+    color: #02021b;
+    background-color: #ffae00;
 }
+
 .contact-me-home {
     top: 900px;
     position: absolute;
@@ -344,7 +344,7 @@ a:hover {
     background-size: auto;
     background-image: url("snake-js/ressources/body-h.png");
     /*background-color: forestgreen;*/
-    /*border: .01vmin solid black;*/
+    /*border: .01vmin solid #02021b;*/
     /*border-radius: 5px;*/
 }
 
@@ -360,11 +360,11 @@ a:hover {
 #mainNav {
     font-weight: 700;
     z-index: 2;
-    background-color: black;
+    background-color: #02021b;
 }
 
 #mainNav .navbar-brand {
-    color: #fff
+    color: #fff9f2
 }
 
 #mainNav .navbar-brand:hover {
@@ -372,7 +372,7 @@ a:hover {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-    color: #fff;
+    color: #fff9f2;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -460,21 +460,24 @@ a:hover {
     top: 1rem;
     font-size: 3rem;
     line-height: 3rem;
-    color: black;
+    color: #02021b;
     opacity: 1
 }
 
-#portfolioModal5 A {
-    color: dodgerblue;
+.portfolio-modal-title {
+    color: #02021b;
 }
 
 #portfolio img {
     height: 220px;
     object-fit: scale-down;
-
 }
 
-#formation  {
+#portfolio a {
+    color: #ffae00;
+}
+
+#formation {
     padding-top: 4rem;
 }
 
@@ -503,7 +506,7 @@ a:hover {
     width: 30px;
     bottom: 60px;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid #fff9f2;
     border-radius: 20px;
     cursor: pointer;
     outline: none;
@@ -517,18 +520,18 @@ a:hover {
     width: 6px;
     height: 6px;
     margin-left: -3px;
-    background-color: #fff;
+    background-color: #fff9f2;
     border-radius: 100%;
     animation: scroll-down_btn-animation 1.5s infinite;
     box-sizing: border-box;
 }
 
 @keyframes scroll-down_btn-animation {
-    0%{
+    0% {
         opacity: 0;
         transform: translateY(0rem);
     }
-    100%{
+    100% {
         opacity: 1;
         transform: translateY(1rem);
     }
