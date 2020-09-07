@@ -19,7 +19,7 @@
     <div class="container container-home text-center">
         <h1 class="display-1 ">Bonjour, c'est Corentin Rodrigo</h1>
         <h2 class="display-4 ">Développeur Web et Ingénieur Machine Learning </h2>
-<!--        <a href="#portfolio-h1" type="button" class="btn btn-outline-light">Portfolio</a>-->
+        <!--        <a href="#portfolio-h1" type="button" class="btn btn-outline-light">Portfolio</a>-->
         <!--      <h1 class="display-1" style="font-size: 5vw">h1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque debitis dicta, distinctio dolore enim, eos harum inventore laboriosam libero maxime nam odit officia perspiciatis quia quod reprehenderit sapiente unde vel!</h1>-->
         <!--      <h2 class="display-4" style="font-size: 2vw" >h2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam consequatur consequuntur, debitis distinctio error explicabo facere, harum hic maiores natus non nostrum obcaecati odit perspiciatis soluta, suscipit veritatis vero.</h2>-->
         <div class="mx-auto text-center">
@@ -41,9 +41,6 @@
 </div>
 
 <!--NAVBAR-->
-<div id="nav-placeholder"></div>
-
-
 <div class="navbar navbar-expand-lg bg-secondary" id="mainNav">
     <div class="container"><a class="navbar-brand js-scroll-trigger" href="#landing-page">CORENTIN RODRIGO</a>
         <button id="nav-menu" class="navbar-toggler navbar-toggler-right font-weight-bold bg-dark text-white rounded"
@@ -66,10 +63,11 @@
     </div>
 </div>
 
+
 <!--PORTFOLIO-->
 
 <div class="container" id="portfolio-h1">
-    <h1  class="display-4 title-section hvr-underline-from-center anchor">Portfolio</h1>
+    <h1 class="display-4 title-section hvr-underline-from-center anchor">Portfolio</h1>
 </div>
 <div id="portfolio"></div>
 
@@ -77,7 +75,7 @@
 <div class="container-fluid">
     <div class="container">
         <h1 id="brainshield" class="display-4 title-section hvr-underline-from-center anchor">BrainShield Antivirus</h1>
-        <div class="row ">
+        <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <p>BrainShield est le nom de l'application développée dans le cadre de mon mémoire de
                     recherche scientifique à l'École Polytechnique de Montréal au sein du laboratoire de recherche en
@@ -85,7 +83,7 @@
                     et
                     informatique mobile (LARIM). Bourse de recherche du CRSNG et nominé au meilleur mémoire </p>
                 <h3 class="hvr hvr-backward">Étudiant Ingénieur Chercheur | Mai 2019 – Août 2020</h3>
-                <div class="media brainshield  d-block d-md-flex mt-4 logos">
+                <div class="media brainshield  d-block d-md-flex mt-2 logos ">
                     <video class="d-flex mb-3 mx-auto media-image z-depth-1" width="250" controls>
                         <source src="resources/brainshield-video.mp4">
                         Your browser does not support HTML video.
@@ -101,7 +99,7 @@
                         informatique
 
 
-                        <div class="media d-block d-md-flex mt-4">
+                        <div class="media d-block d-sm-flex mt-4 ">
                             <img class="hvr-grow" src="resources/logo-tensorflow.png" alt="Generic placeholder image">
                             <img class="hvr-grow" src="resources/logo-kera-only-k.png" alt="Generic placeholder image">
                             <div class="media-body">
@@ -111,7 +109,7 @@
                             </div>
 
                         </div>
-                        <div class="media d-block d-md-flex mt-4">
+                        <div class="media d-block d-sm-flex mt-4">
                             <img class="hvr-grow" src="resources/logo-kotlin.png" alt="Generic placeholder image">
                             <img class="hvr-grow" src="resources/logo-android.png" alt="Generic placeholder image">
                             <div class="media-body">
@@ -122,7 +120,7 @@
                             </div>
                         </div>
 
-                        <div class="media d-block d-md-flex mt-4">
+                        <div class="media d-block d-sm-flex mt-4">
 
                             <img class="hvr-grow" src="resources/logo-flask.png" alt="Generic placeholder image">
                             <img class="hvr-grow" src="resources/logo-python.png" alt="Generic placeholder image">
@@ -308,15 +306,16 @@
         <div class="container">
             <div class="row myWork">
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><img src="resources/screenshot-carte.png"
-                                                                        class="img-thumbnail hvr-grow-pic"
+                                                                        class="img-thumbnail hvr-grow-myworks"
                                                                         alt="thumbnail1">
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <img src="resources/screenshot_map_icam.png" class="img-thumbnail hvr-grow-pic" alt="thumbnail1">
+                    <img src="resources/screenshot_map_icam.png" class="img-thumbnail hvr-grow-myworks"
+                         alt="thumbnail1">
                 </div>
 
                 <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                    <img src="resources/screenshot-lunette-retouche.jpeg" class="img-thumbnail hvr-grow-pic"
+                    <img src="resources/screenshot-lunette-retouche.jpeg" class="img-thumbnail hvr-grow-myworks"
                          alt="thumbnail1">
                 </div>
             </div>
@@ -449,8 +448,6 @@
 <script src="https://kit.fontawesome.com/e592a69a21.js" crossorigin="anonymous"></script>
 
 
-
-
 <!-- Bootstrap core JS-->
 <!-- Third party plugin JS-->
 <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>-->
@@ -508,6 +505,7 @@ function stickyNav() {
 
 <script>
     $(function () {
+        // $("#mainNav").load("nav.html");
         $("#portfolio").load("portfolio.html");
         $("#footer").load("footer.html");
 
@@ -516,5 +514,9 @@ function stickyNav() {
 
 <script type="text/javascript" src="particles.js"></script>
 <script type="text/javascript" src="app.js"></script>
+
+<script>$('.navbar-nav>li>a').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+});</script>
 
 </html>
