@@ -165,6 +165,10 @@ a:hover {
 .web h3 {
     padding-top: 2rem;
 }
+.brainshield a {
+    color: #ffae00;
+    font-weight: bold
+}
 
 .web a {
     color: #ffae00;
