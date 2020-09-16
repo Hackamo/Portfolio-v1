@@ -21,9 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3e48b5e3-b0a0-4797-8f8d-b9b76f62298a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/Portfolio-v1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Portfolio-v1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.2-dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-4.5.2-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap-4.5.2-dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/bootstrap-4.5.2-dist/js/bootstrap.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +36,19 @@
       <option value="directory" />
     </option>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/nav.html" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectId" id="1gIIj2EACFBqdtP2yCVgXgEc2eX" />
   <component name="ProjectViewState">
@@ -44,12 +56,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\coren\WebstormProjects\Portfolio-v1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\coren\WebstormProjects\Portfolio-v1\resources" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -69,6 +88,21 @@
       <workItem from="1598027929356" duration="90000" />
       <workItem from="1598028326880" duration="576000" />
       <workItem from="1598038167343" duration="2754000" />
+      <workItem from="1598389151609" duration="40000" />
+      <workItem from="1598389579568" duration="6897000" />
+      <workItem from="1598472585330" duration="1804000" />
+      <workItem from="1598474963574" duration="1067000" />
+      <workItem from="1598476297437" duration="50000" />
+      <workItem from="1598544943537" duration="147000" />
+      <workItem from="1598549840735" duration="20000" />
+      <workItem from="1598971044084" duration="3650000" />
+      <workItem from="1598979941576" duration="21000" />
+      <workItem from="1598980962247" duration="22000" />
+      <workItem from="1599483955081" duration="7985000" />
+      <workItem from="1599590558937" duration="4128000" />
+      <workItem from="1599848362983" duration="5221000" />
+      <workItem from="1599862607862" duration="772000" />
+      <workItem from="1600199220207" duration="555000" />
     </task>
     <task id="LOCAL-00001" summary="Add all files">
       <created>1597795937853</created>
@@ -133,7 +167,77 @@
       <option name="project" value="LOCAL" />
       <updated>1598028561966</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1598396516268</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1598396516268</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update particles and portfolio">
+      <created>1598473989260</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598473989260</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update files">
+      <created>1598545077735</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598545077735</updated>
+    </task>
+    <task id="LOCAL-00013" summary="updates">
+      <created>1598974528589</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598974528589</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update">
+      <created>1599487505135</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599487505135</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update">
+      <created>1599489974895</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599489974895</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update">
+      <created>1599491943193</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1599491943193</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update">
+      <created>1599594566287</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599594566287</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update">
+      <created>1599863377213</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1599863377213</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update">
+      <created>1600199750758</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1600199750758</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,28 +264,52 @@
     <MESSAGE value="updates features" />
     <MESSAGE value="update index" />
     <MESSAGE value="upload files and update index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="upload files and update index.html" />
+    <MESSAGE value="update particles and portfolio" />
+    <MESSAGE value="update files" />
+    <MESSAGE value="updates" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597848169810">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="104" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.777/-247.-1057.1920.1057@0.23.1280.777" timestamp="1597848169810" />
+    <state x="516" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599491711587">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="516" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599491711587" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1598390716792">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598390716792" />
     <state x="141" y="50" key="SettingsEditor" timestamp="1597929535013">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="141" y="50" key="SettingsEditor/0.23.1280.777/-247.-1057.1920.1057@0.23.1280.777" timestamp="1597929535013" />
-    <state x="240" y="151" key="Vcs.Push.Dialog.v2" timestamp="1598028563576">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="618" y="325" key="VCS.ChangelistChooser" timestamp="1598473942593">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="618" y="325" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1598473942593" />
+    <state x="288" y="1217" key="Vcs.Push.Dialog.v2" timestamp="1600199751989">
+      <screen x="0" y="1080" width="1536" height="832" />
+    </state>
+    <state x="288" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1599594653713" />
+    <state x="288" y="136" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598545079525" />
+    <state x="288" y="1217" key="Vcs.Push.Dialog.v2/0.1080.1536.832/0.0.1920.1040@0.1080.1536.832" timestamp="1600199751989" />
     <state x="240" y="151" key="Vcs.Push.Dialog.v2/0.23.1280.777/-247.-1057.1920.1057@0.23.1280.777" timestamp="1598028563576" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1597858790876">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.23.1280.777/-247.-1057.1920.1057@0.23.1280.777" timestamp="1597858790876" />
-    <state x="305" y="62" width="670" height="676" key="search.everywhere.popup" timestamp="1597877603525">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1598394450364">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1598394450364" />
+    <state x="366" y="1122" width="804" height="724" key="search.everywhere.popup" timestamp="1599862734260">
+      <screen x="0" y="1080" width="1536" height="832" />
+    </state>
+    <state x="366" y="1122" width="804" height="724" key="search.everywhere.popup/0.1080.1536.832/0.0.1920.1040@0.1080.1536.832" timestamp="1599862734260" />
     <state x="305" y="62" width="670" height="676" key="search.everywhere.popup/0.23.1280.777/-247.-1057.1920.1057@0.23.1280.777" timestamp="1597877603525" />
   </component>
 </project>

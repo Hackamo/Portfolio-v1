@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{scrollreveal}" />
+    <file url="PROJECT" libraries="{bootstrap.bundle, e592a69a21, jquery, jquery-easing, scrollreveal}" />
   </component>
 </project>
