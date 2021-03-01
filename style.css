@@ -1,8 +1,24 @@
+@font-face {
+	src: url(fonts/SuisseEduInt-medium.otf);
+	font-family: SuisseEDUIntl-Medium;
+}
+
+@font-face {
+	src: url(fonts/SuisseWorksRegular.otf);
+	font-family: SuisseEDUIntl-Regular;
+}
+@font-face {
+	src: url(fonts/SuisseIntThin.otf);
+	font-family: SuisseEDUIntl-Thin;
+}
+
 * {
 	scroll-behavior: smooth;
 	padding: 0;
 	margin: 0;
 	border: 0;
+	font-family: SuisseEDUIntl-Thin;
+	font-weight: 700;
 }
 
 body {
@@ -17,8 +33,12 @@ body {
 	max-width: 85%;
 }
 
+.container h3 {
+	font-weight: 900;
+}
+
 .home {
-	background-image: url("resources/wallpaper7-sized.jpg");
+	background-image: url("resources/wallpaper8.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -26,15 +46,21 @@ body {
 	color: mintcream;
 }
 
+.navbar-wrapper	{
+	height: 10px;
+	transition: all 400ms ease;
+}
+
 @media screen and (max-width: 50em) {
 	.home {
-		background: url("resources/wallpaper7-sized.jpg") 50% top !important;
+		background: url("resources/wallpaper8.jpg") 50% top !important;
 	}
 }
 
 .home h1 {
 	padding-top: 20vw;
 	font-size: 4.5rem;
+	font-weight: 900;
 }
 
 .home h2 {
@@ -74,6 +100,7 @@ body {
 
 .title-section {
 	margin-bottom: 0.5em;
+	font-weight: 700;
 }
 
 .small-logos-black {
@@ -163,6 +190,7 @@ a:hover {
 
 .web h3 {
 	padding-top: 2rem;
+	font-weight: 900;
 }
 
 .brainshield a {
@@ -176,12 +204,11 @@ a:hover {
 }
 
 #particles-js {
-	top: 1080px;
+	top: 100vh;
 	position: absolute;
-	height: 4100px;
-	width: 100%;
+	height: 6500px;
 	z-index: -1;
-	left: 0;
+	width: 100vw;
 }
 
 .outils {
@@ -241,8 +268,8 @@ a:hover {
 	-webkit-transform: perspective(1px) translateZ(0);
 	transform: perspective(1px) translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	-webkit-transition-duration: 0.1s;
-	transition-duration: 0.1s;
+	-webkit-transition-duration: 50ms;
+	transition-duration: 50ms;
 	-webkit-transition-property: transform;
 	transition-property: transform;
 }
@@ -261,8 +288,8 @@ a:hover {
 	-webkit-transform: perspective(1px) translateZ(0);
 	transform: perspective(1px) translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	-webkit-transition-duration: 0.1s;
-	transition-duration: 0.1s;
+	-webkit-transition-duration: 50ms;
+	transition-duration: 50ms;
 	-webkit-transition-property: transform;
 	transition-property: transform;
 }
@@ -282,8 +309,8 @@ a:hover {
 	-webkit-transform: perspective(1px) translateZ(0);
 	transform: perspective(1px) translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	-webkit-transition-duration: 0.2s;
-	transition-duration: 0.2s;
+	-webkit-transition-duration: 0.1s;
+	transition-duration: 0.1s;
 	-webkit-transition-property: transform;
 	transition-property: transform;
 }
@@ -375,10 +402,11 @@ a:hover {
 	background-position: center;
 }
 
+
 #mainNav {
 	font-weight: 700;
 	z-index: 2;
-	background-color: #02021b;
+	background-color: #00001f;
 }
 
 #mainNav .navbar-brand {
@@ -405,6 +433,7 @@ a:hover {
 	position: fixed;
 	top: 0;
 	width: 100%;
+	transition: all 0.5s cubic-bezier(1,.35,.04,.71);
 }
 
 .sticky + .content {
@@ -461,6 +490,8 @@ a:hover {
 	padding-bottom: 1rem;
 }
 
+
+
 @media (min-width: 992px) {
 	.portfolio-modal .portfolio-modal-title {
 		font-size: 3rem;
@@ -505,6 +536,9 @@ a:hover {
 
 #footer {
 	margin-top: 5rem;
+	width: 100vw;
+	position: absolute;
+	left: 0;
 }
 
 .footer-copyright a {
