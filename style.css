@@ -18,7 +18,7 @@
 	margin: 0;
 	border: 0;
 	font-family: SuisseEDUIntl-Thin;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 body {
@@ -46,7 +46,7 @@ body {
 	color: mintcream;
 }
 
-.navbar-wrapper	{
+.navbar-wrapper {
 	height: 10px;
 	transition: all 400ms ease;
 }
@@ -55,6 +55,9 @@ body {
 	.home {
 		background: url("resources/wallpaper8.jpg") 50% top !important;
 	}
+}
+.font-900 {
+	font-weight: 900;
 }
 
 .home h1 {
@@ -99,7 +102,7 @@ body {
 }
 
 .title-section {
-	margin-bottom: 0.5em;
+	padding: 20px 0;
 	font-weight: 700;
 }
 
@@ -107,15 +110,13 @@ body {
 	padding-left: 1em;
 	font-size: 2em;
 	color: #02021b;
-	margin: 10px;
 }
 
 .small-logos-white {
-	padding-left: 1em;
-	padding-top: 2rem;
+	padding: 0px 10px;
+	padding-top: 1rem;
 	font-size: 2em;
 	color: #fff9f2;
-	margin: 1rem;
 }
 
 .small-logos-white:hover {
@@ -208,7 +209,7 @@ a:hover {
 	position: absolute;
 	height: 6500px;
 	z-index: -1;
-	width: 100vw;
+	width: 100%;
 }
 
 .outils {
@@ -402,11 +403,14 @@ a:hover {
 	background-position: center;
 }
 
-
 #mainNav {
-	font-weight: 700;
+	font-weight: 900;
 	z-index: 2;
 	background-color: #00000f;
+}
+
+#mainNav a {
+	font-family: SuisseEDUIntl-Medium;
 }
 
 #mainNav .navbar-brand {
@@ -433,7 +437,7 @@ a:hover {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	transition: all 0.5s cubic-bezier(1,.35,.04,.71);
+	transition: all 0.5s cubic-bezier(1, 0.35, 0.04, 0.71);
 }
 
 .sticky + .content {
@@ -490,8 +494,6 @@ a:hover {
 	padding-bottom: 1rem;
 }
 
-
-
 @media (min-width: 992px) {
 	.portfolio-modal .portfolio-modal-title {
 		font-size: 3rem;
@@ -536,7 +538,7 @@ a:hover {
 
 #footer {
 	margin-top: 5rem;
-	width: 100vw;
+	width: 100%;
 	position: absolute;
 	left: 0;
 }
